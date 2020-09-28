@@ -9,7 +9,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "lite": "lite-server",
-        "postinstall": "ng build --prod"
+        "postnpm": "ng build --prod"
     },
     "private": true,
     "dependencies": {
@@ -49,7 +49,7 @@
         "zone.js": "~0.10.2"
     },
     "engines": {
-        "node": "10.14.2",
-        "npm": "6.4.1"
+        "node": "14.12.0",
+        "npm": "6.14.8"
     }
 }
